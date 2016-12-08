@@ -1,0 +1,19 @@
+Dear HelloFresh
+  
+Kndly run the program in RStudio in following order.
+
+1. solution.R
+This is main program for building model, classification etc. This program will output 'dt.csv' file which will be consumed by other four visualization programs.
+ 
+2. There are two visualization files and two folders.
+- visualize-1.R
+- visualize-2.R
+- visualize-3 (folder)
+- visualize-4 (folder)
+
+You can run them in any order. They all need dt.csv file in addition to the input data files.
+visualize-3 and visualize-4 are folder. Both are 'Shiny R' applicatons. They can be run by main.R or by running any file in the folder. global.R points to the initial data treatment while server.R and ui.R are essentially required by shiny R. The driver file is main.R. 
+
+Regards
+Naeem
+==================  
